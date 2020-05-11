@@ -15,17 +15,18 @@ $ catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 Then use wstool for fetching catkin dependencies:
 ```
 $ cd src
-$ git clone https://github.com/ethz-asl/segmap.git
+$ git clone https://github.com/cherrybell0912/segmap.git
 $ wstool init
 $ wstool merge segmap/dependencies.rosinstall
 $ wstool update
 ```
 
 #### Tensorflow
-
+Follow the steps in this blog to install tensorflow 1.8 (https://blog.csdn.net/weixin_37835423/article/details/87295994)
 
 ##### Build tensorflow_ros_cpp
-For more details on the optional compile flags or in case of issues compiling see the [FAQ](https://github.com/ethz-asl/segmap/wiki/FAQ#q-issues-compiling-tensorflow_ros_cpp).
+
+Follow step 3 in this blog to build tensorflow_ros_cpp (https://blog.csdn.net/weixin_37835423/article/details/87295994).
 
 ```
 $ cd ~/segmap_ws
