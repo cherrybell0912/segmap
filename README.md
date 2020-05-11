@@ -70,10 +70,9 @@ Make sure to source the SegMap workspace before running the segmapper demonstrat
 ```
 $ source ~/segmap_ws/devel/setup.bash
 ```
-To train new models see intructions [here](https://github.com/ethz-asl/segmap/wiki/Training-new-models).
 
 #### Download demonstration files
-
+Download the segmap data from [here](https://github.com/ethz-asl/segmap/wiki/Training-new-models). Then you need to change the path of "bag_file" in kitti_loop_closure.launch(segmapper/launch/kitti/kitti_loop_closure.launch) to the path where you store data locally.
 
 
 #### Run online SLAM example
