@@ -72,7 +72,7 @@ $ source ~/segmap_ws/devel/setup.bash
 ```
 
 #### Download demonstration files
-Download the segmap data from [here](https://github.com/ethz-asl/segmap/wiki/Training-new-models). Then you need to change the path of "bag_file" in kitti_loop_closure.launch(segmapper/launch/kitti/kitti_loop_closure.launch) to the path where you store data locally.
+Download the segmap data from [here](链接:https://pan.baidu.com/s/10ZmnXQMdqTU8qm3SRI1XqQ  密码:gscv). Then you need to change the path of "bag_file" in kitti_loop_closure.launch(segmapper/launch/kitti/kitti_loop_closure.launch) to the path where you store data locally.
 
 #### Run online SLAM example
 
