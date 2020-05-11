@@ -74,7 +74,7 @@ To train new models see intructions [here](https://github.com/ethz-asl/segmap/wi
 
 #### Download demonstration files
 
-To download all necessary files, copy the content of the [segmap_data](http://robotics.ethz.ch/~asl-datasets/segmap/segmap_data/) into ```~/.segmap/```. If you installed the segmappy python package you can run the automated download script. **Note: These models have been trained using Tensorflow 1.8 and are only guaranteed to work for that version.**
+
 
 #### Run online SLAM example
 
