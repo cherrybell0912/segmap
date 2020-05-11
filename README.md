@@ -35,6 +35,29 @@ $ catkin build tensorflow_ros_cpp
 
 ### Build SegMap
 
+Install some packages first：
+```
+$ sudo apt-get install autoconf automake libtool
+```
+```
+$ git clone https://github.com/doxygen/doxygen.git
+$ cd doxygen
+$ mkdir build
+$ cd build
+$ cmake …
+$ make
+$ sudo make install
+```
+```
+$ git clone https://github.com/ros-perception/pcl_conversions/tree/indigo-devel
+$ cd pcl_conversions
+$ mkdir build
+$ cd build
+$ cmake …
+$ make
+$ sudo make install
+```
+
 Finally, build the *segmapper* package which will compile all dependencies and SegMap modules:
 ```
 $ cd ~/segmap_ws
